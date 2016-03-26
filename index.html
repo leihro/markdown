@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>simple markdown editor</title>
+    <link rel="stylesheet" href="src/css/app.css">
+    <script src="src/js/vue.js"></script>
+    <script src="src/js/marked.min.js"></script>
+  </head>
+  <body>
+
+    <div id="my-editor">
+      <textarea v-model="input" debounce="100"></textarea>
+      <div v-html="input | marked"></div>
+    </div>
+
+    <script src="src/js/vue/index.js"></script>
+  </body>
+</html>
