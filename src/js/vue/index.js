@@ -5,7 +5,7 @@ new Vue({
 		cheatsheet: {
 			'header': '## Header',
 			'p': '"#" is header, "##", "###" or something like "----", "====="',
-			'list': '- list _item 1_\n- list __item 2__\n* list ___item 3___\n* list ~~item 4~',
+			'list': '- list _item 1_\n- list __item 2__\n* list ___item 3___\n* list ~~item 4~~',
 			'blockquote': '>in Blockquote you can write Block information, usually used in Email for example',
 			'code': '```javascript\nvar str = "write some javascript in markdown";\nconsole.log(str);\n```',
 			'inline-code': 'Inline `code` has `back-ticks`.',
@@ -20,8 +20,8 @@ new Vue({
 		addCheatSheet: function () {
   			var key,
   				cheatSheet = '';
-	  		for(key in this.cheatsheet) {
-	  			if(this.cheatsheet.hasOwnProperty(key)) {
+	  		for (key in this.cheatsheet) {
+	  			if (this.cheatsheet.hasOwnProperty(key)) {
 	  				cheatSheet += '\n\n' + this.cheatsheet[key];
 	  			}
 	  		}
