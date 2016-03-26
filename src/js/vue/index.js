@@ -8,9 +8,9 @@ new Vue({
 			'list': '- list _item 1_\n- list __item 2__\n* list ___item 3___\n* list ~~item 4~~',
 			'blockquote': '>in Blockquote you can write Block information, usually used in Email for example',
 			'code': '```javascript\nvar str = "write some javascript in markdown";\nconsole.log(str);\n```',
-			'inline-code': 'Inline `code` has `back-ticks`.',
+			'inline-code': 'Inline `code` has one `back-ticks`.',
 			'number-list': '1. numeric list *item 1*\n2. numeric list **item 2**\n3. numeric list ***item 3***',
-			'link': 'here is **another** [cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) here, you can find more about md, like table.'
+			'link': 'here is **another** [cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) here, you can find more useful info about md, like table.'
 		}
 	},
 	filters: {
